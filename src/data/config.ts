@@ -9,7 +9,7 @@
 
 export const siteConfig = {
   /** Nombre de tu marca. Reemplaza [NOMBRE_MARCA] por el nombre real. */
-  brandName: '[NOMBRE_MARCA]',
+  brandName: 'Conny Ramírez •URBANGROUP Realtor•',
 
   /** Dominio final del sitio (sin barra al final). Usado para SEO / og:image. */
   siteUrl: 'https://www.tu-dominio.com',
@@ -19,7 +19,7 @@ export const siteConfig = {
    * empezando por el codigo de pais. Ejemplo Rep. Dominicana: 18091234567
    * Reemplaza el placeholder por tu numero real.
    */
-  whatsappNumber: '+1809XXXXXXX',
+  whatsappNumber: '+1 809 715 9535',
 
   /** Correo de contacto para el formulario de solicitud. */
   contactEmail: 'reservas@tu-dominio.com',
