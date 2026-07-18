@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "villas": "Villas",
+    "experiences": "Experiences",
+    "testimonials": "Testimonials",
+    "contact": "Book now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "label": "Language",
+    "es": "ES",
+    "en": "EN",
+    "switchToEs": "Switch to Spanish",
+    "switchToEn": "Switch to English"
+  },
+  "hero": {
+    "eyebrow": "Las Terrenas · Dominican Republic",
+    "titleLine1": "Luxury villas",
+    "titleLine2": "on the Caribbean",
+    "subtitle": "A private collection of exclusive residences where the sea, the jungle, and design come together.",
+    "cta": "Discover the villas",
+    "scroll": "Scroll to explore"
+  },
+  "why": {
+    "eyebrow": "Why Las Terrenas",
+    "title": "The Caribbean's best-kept secret",
+    "paragraphs": [
+      "Tucked away on the Samana peninsula, Las Terrenas keeps the soul of a fishing village with the refinement of an international destination.",
+      "Untouched beaches of golden sand, jungle-covered mountains, and a French-Caribbean food scene unlike anywhere else in the country.",
+      "Here luxury is not measured in ostentation, but in privacy, nature, and time. Time to do nothing at all, facing an impossibly blue sea."
+    ]
+  },
+  "villas": {
+    "eyebrow": "Our collection",
+    "title": "Our Villas",
+    "subtitle": "Three residences, one standard of excellence.",
+    "guests": "{count, plural, one {# guest} other {# guests}}",
+    "bedrooms": "{count, plural, one {# bedroom} other {# bedrooms}}",
+    "bathrooms": "{count, plural, one {# bathroom} other {# bathrooms}}",
+    "cta": "Check availability",
+    "viewVilla": "View villa"
+  },
+  "experiences": {
+    "eyebrow": "The destination",
+    "title": "Experiences",
+    "subtitle": "What awaits you beyond the villa.",
+    "scrollHint": "Scroll"
+  },
+  "testimonials": {
+    "eyebrow": "Guests",
+    "title": "What past guests are saying",
+    "prev": "Previous",
+    "next": "Next",
+    "goTo": "Go to testimonial {number}"
+  },
+  "finalCta": {
+    "eyebrow": "Your escape starts here",
+    "title": "Book your stay in Las Terrenas",
+    "subtitle": "Write to us and we'll design the perfect getaway together. No hidden prices, no hassle.",
+    "cta": "Check availability",
+    "whatsapp": "Message us on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Luxury villas in Las Terrenas, Dominican Republic.",
+    "explore": "Explore",
+    "villas": "Villas",
+    "experiences": "Experiences",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "All rights reserved.",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "tiktok": "TikTok"
+  },
+  "amenities": {
+    "title": "Amenities",
+    "wifi": "High-speed WiFi",
+    "pool": "Private pool",
+    "ac": "Air conditioning",
+    "kitchen": "Fully equipped kitchen",
+    "parking": "Private parking",
+    "beach": "Beach access",
+    "ocean_view": "Ocean view",
+    "garden": "Tropical garden",
+    "breakfast": "Breakfast available",
+    "cleaning": "Cleaning service",
+    "workspace": "Workspace",
+    "bbq": "Barbecue area"
+  },
+  "villa": {
+    "back": "Back to villas",
+    "overview": "The villa",
+    "gallery": "Gallery",
+    "guests": "Guests",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "bookTitle": "Book your stay",
+    "bookSubtitle": "Choose how you'd like to book. We reply personally."
+  },
+  "booking": {
+    "whatsapp": {
+      "title": "Quick booking via WhatsApp",
+      "description": "The fastest way. We reply within minutes.",
+      "cta": "Book via WhatsApp",
+      "message": "Hello, I'm interested in booking the villa {villa}. I'd like to check availability and get more information."
+    },
+    "form": {
+      "title": "Booking request",
+      "description": "Send us your dates and we'll get in touch to confirm.",
+      "name": "Full name",
+      "email": "Email address",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "guests": "Guests",
+      "message": "Message (optional)",
+      "messagePlaceholder": "Tell us about your trip...",
+      "submit": "Send request",
+      "success": "Thank you. We've received your request and will contact you very soon.",
+      "required": "This field is required"
+    },
+    "online": {
+      "title": "Book online",
+      "description": "Review the summary and confirm your interest. Payment is arranged afterwards.",
+      "cta": "Book online",
+      "summaryTitle": "Your booking summary",
+      "villa": "Villa",
+      "guests": "Guests",
+      "dates": "Dates",
+      "datesPending": "To be defined",
+      "paymentTitle": "Payment",
+      "paymentSoon": "Coming soon. We'll contact you to confirm availability and arrange payment securely.",
+      "confirm": "Confirm request",
+      "close": "Close",
+      "confirmed": "Request sent. We'll contact you to confirm the details."
+    }
+  },
+  "whatsappFloat": {
+    "label": "Message us on WhatsApp",
+    "message": "Hello, I'd like more information about the villas in Las Terrenas."
+  },
+  "meta": {
+    "homeTitle": "Luxury Villa Rentals in Las Terrenas | {brand}",
+    "homeDescription": "A private collection of beachfront luxury villas in Las Terrenas, Dominican Republic. Check availability for our exclusive residences.",
+    "villaTitle": "{villa} — Luxury Villa in Las Terrenas | {brand}",
+    "villaDescription": "Discover {villa}, a luxury villa in Las Terrenas for {guests} guests. Check availability."
+  }
+}

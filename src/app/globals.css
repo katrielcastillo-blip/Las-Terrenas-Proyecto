@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-sand: #f5f0e8;
+  --color-palm: #1b4332;
+  --color-teal: #2a9d8f;
+  --color-gold: #c9a227;
+  --color-charcoal: #1a1a1a;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-charcoal);
+    font-family: var(--font-inter), system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-cormorant), serif;
+    font-weight: 400;
+  }
+
+  /* Lenis: transiciones controladas por el script de smooth scroll */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* Contenedor central del sitio */
+  .container-luxe {
+    @apply mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-12;
+  }
+
+  /* Etiqueta pequena dorada sobre los titulos de seccion */
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-widest2 text-gold;
+  }
+
+  /* Linea dorada fina decorativa */
+  .gold-line {
+    @apply block h-px w-16 bg-gold;
+  }
+
+  /* Boton principal */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-palm px-8 py-4 text-sm font-medium uppercase tracking-widest text-sand transition-all duration-500 ease-luxe hover:bg-teal;
+  }
+
+  /* Boton secundario (contorno) */
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-palm/30 px-8 py-4 text-sm font-medium uppercase tracking-widest text-palm transition-all duration-500 ease-luxe hover:border-palm hover:bg-palm hover:text-sand;
+  }
+
+  /* Boton WhatsApp */
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-4 text-sm font-medium uppercase tracking-widest text-white transition-all duration-500 ease-luxe hover:brightness-105;
+  }
+}
+
+/* Respeta la preferencia de reducir movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Oculta scrollbar en carruseles horizontales manteniendo el scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

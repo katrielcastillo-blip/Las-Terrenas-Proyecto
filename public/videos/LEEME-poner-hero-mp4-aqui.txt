@@ -1,0 +1,12 @@
+Coloca aqui tu video del Hero con el nombre EXACTO:  hero.mp4
+
+Recomendaciones:
+- Formato: MP4 (H.264), en loop, SIN audio (el sitio lo silencia).
+- Duracion: 10-25 segundos en bucle.
+- Peso: idealmente menos de 8-10 MB para que cargue rapido en el celular.
+- Resolucion: 1920x1080 (Full HD) es suficiente.
+
+Mientras no exista hero.mp4, el sitio muestra automaticamente la imagen
+de respaldo (poster): /public/images/hero-fallback.jpg
+
+Puedes borrar este archivo .txt cuando agregues tu video.
